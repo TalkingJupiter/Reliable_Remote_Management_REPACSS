@@ -1,4 +1,4 @@
-# Reliable Remote Management of REPACSS Cluster (Telemetry v1)
+# Reliable Remote Management of REPACSS Cluster (Telemetry v0.1.0)
 
 This project implements a **rack-level telemetry subsystem** using **two ESP32 controllers per rack**:
 - **Controller A (Primary)**: sends telemetry during normal operation
