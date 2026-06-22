@@ -1,5 +1,9 @@
 # Reliable Remote Management of REPACSS Cluster (Telemetry v0.1.0)
 
+> THIS REPO HAS BEEN ARCHIVED 
+> DEVELOPMENT CONTINUES ON https://github.com/nsfcac/ReliableRemoteManagement
+
+
 This project implements a **rack-level telemetry subsystem** using **two ESP32 controllers per rack**:
 - **Controller A (Primary)**: sends telemetry during normal operation
 - **Controller B (Standby)**: monitors A via heartbeat and **takes over telemetry sending** if A fails
@@ -346,4 +350,6 @@ A centralized SQL database shall be used to persist **environmental telemetry, s
 
 ## Storage Provisioning
 - The system shall provision **around 1 TB of persistent storage** to support multi-year retention of 5-second telemetry data and future system scaling.
+
+
 
